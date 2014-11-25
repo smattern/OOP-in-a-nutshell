@@ -1,4 +1,4 @@
-vortrag-OOP
+OOP in a nutshell!
 ===========
 
 Demo application... 
