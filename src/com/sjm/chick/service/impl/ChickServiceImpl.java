@@ -14,9 +14,9 @@ import java.util.Random;
 public class ChickServiceImpl implements ChickService{
 
     @Override
-    public Chick createChick() {
+    public Chick createChick(int i) {
         int randomAge = generateRandomAge();
-        return new Chick("chick: " + randomAge, randomAge);
+        return new Chick("Chick nr-" + i, randomAge);
     }
 
     /**
