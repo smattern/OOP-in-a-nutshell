@@ -52,7 +52,7 @@ public class FarmServiceImpl implements FarmService {
         // create 10 new chicks
         for(int i = 0; i <= 9; i++){
             // farm add new chick
-            farm.addChickToFarm(chickService.createChick());
+            farm.addChickToFarm(chickService.createChick(i));
         }// end for
     }
 
