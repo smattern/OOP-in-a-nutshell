@@ -11,9 +11,11 @@ import com.sjm.chick.domain.Chick;
 public interface ChickService {
 
     /**
-     * Create a chick;
-     *
-     * @return chick, the new chick
-     */
-    Chick createChick();
+    * Create a chick;
+    *
+    * @param i, identifier 
+    *           
+    * @return chick, the new chick
+    */
+    Chick createChick(int i);
 }
